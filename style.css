@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(255, 84, 84, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 500px;
+}
+.title{
+    font-size: 100px;
+    color: white;
+}
+.imgContainer{
+    width: 1500px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgButton{
+    width: 250px;
+    height: 200px;
+    color: plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    border-radius: 10px;
+}
+.one{
+    background-image: url(../kick.png);
+}
+.two{
+    background-image: url(../crash.png);
+}
+.three{
+    background-image: url(../snare.png);
+}
+.four{
+    background-image: url(../tom1.png);
+}
+.five{
+    background-image: url(../tom2.png);
+}
+.six{
+    background-image: url(../tom3.png);
+}
+.seven{
+    background-image: url(../tom4.png);
+}
